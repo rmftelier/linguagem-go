@@ -17,7 +17,6 @@ var rendimentoTinta float64
 
 3. Caso não retorne nada (void) basta não declarar
 um tipo de retorno após os parâmetros da função.
-
 */
 
 func tintaNecessaria(largura, altura float64) (float64, error){
@@ -32,7 +31,7 @@ func tintaNecessaria(largura, altura float64) (float64, error){
 // Função principal 
 func main(){
      rendimentoTinta = 12.1
-		 //Passagem de valores pelo parâmetro
+		 //Uso de Paramêtros por Valores
 		 resultado, err := tintaNecessaria(4.2, 5.11)
      if err != nil{
 			 log.Fatal(err)
