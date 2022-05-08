@@ -1,0 +1,9 @@
+- Criar um Package que defina o tipo Aluno e Tipo Turma;
+
+- Com alguns dados sobre o aluno[data de nascimento, nome, matricula,...], e incluindo uma estrutra para armazenar suas notas em uma disciplina ....
+
+- E a turma com código, Lista de Alunos, máximo de alunos ...
+
+- O pacote deve ter ainda Métodos para manipular o aluno, como: Exibir histórico, mudar nota, editar nome, Limpar cadastro.
+
+- E também manipular a turma: Adicionar aluno, remover,adicionar nota, exibir resumo da turma ... (lembrar de tratar erros)
